@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta name="description" content="learning how to create a log in frame">
+    <meta name="revised"  content="tutorial, 7/8/2026">
+    <meta name="author" content="JOSEPH JUMA">
+    <meta http-equiv="refresh" content="5">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>CREATE ACCOUNT</title>
+    <link rel="stylesheet" href="dack.css">
+
+    <body><form><hi> CREATE ACCOUNT</hi><br>
+        <label for="name"> FIRST NAME:  </label><br>
+        <input type="text" name="first name"><br>
+        <br>
+        <label for="name"> SECOND NAME:  </label><br>
+        <input type="text" name="second name"><br>
+        <br>
+        <label for="name"> LAST NAME:  </label><br>
+        <input type="text" name="last name"><br>
+        <br>
+        <label for="name">EMAIL:  </label><br>
+        <input type="email" name="Email"> <br>
+        <br>
+        <label for="name">PASSWORD:  </label><br>
+        <input type="password" name="password"><br>
+        <br>
+        <label for="name">CONTACT:  </label><br>
+        <input type="tel" name="contact"><br>
+        <br>
+        <textarea type="text" name="send" size="width:10px, height:10px">SEND ME!!</textarea>
+    </form>
+    </body>
+</html>
