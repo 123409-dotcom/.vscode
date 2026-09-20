@@ -1,33 +1,83 @@
-<!DOCTYPE html>
-<html lang="en">
-    <meta name="description" content="learning how to create a log in frame">
-    <meta name="revised"  content="tutorial, 7/8/2026">
-    <meta name="author" content="JOSEPH JUMA">
-    <meta http-equiv="refresh" content="5">
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <title>CREATE ACCOUNT</title>
-    <link rel="stylesheet" href="dack.css">
+.box {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    background-color: blue;
+    color: gold;
+    text-align: center;
+}
+body{
+    background-color: blue;
+    text-align: center:
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
 
-    <body><form><hi> CREATE ACCOUNT</hi><br>
-        <label for="name"> FIRST NAME:  </label><br>
-        <input type="text" name="first name"><br>
-        <br>
-        <label for="name"> SECOND NAME:  </label><br>
-        <input type="text" name="second name"><br>
-        <br>
-        <label for="name"> LAST NAME:  </label><br>
-        <input type="text" name="last name"><br>
-        <br>
-        <label for="name">EMAIL:  </label><br>
-        <input type="email" name="Email"> <br>
-        <br>
-        <label for="name">PASSWORD:  </label><br>
-        <input type="password" name="password"><br>
-        <br>
-        <label for="name">CONTACT:  </label><br>
-        <input type="tel" name="contact"><br>
-        <br>
-        <textarea type="text" name="send" size="width:10px, height:10px">SEND ME!!</textarea>
-    </form>
-    </body>
-</html>
+}
+form{
+    background-color: blue;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    text-decoration-color: gold;
+    margin: 0%;
+    border: 2px;
+    border-radius: 3rem;
+}
+h1 {
+    text-align: center;
+    font-size: larger;
+    font-style: bold;
+    font-display: block;
+    color: brown;
+
+}
+form input{
+    background-color: gold;
+    border-radius: 3rem;
+    border-style:double;
+    text-align: center;
+    text-transform: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+
+}
+
+form textarea{
+    background-color: aqua;
+    color: orange;
+    border-radius: 3rem;
+    border-style: inherit;
+
+}
+form label{
+    color: burlywood;
+
+}
+
+form button {
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    display: block;
+    margin: 1rem auto;
+    padding: 0.5rem 1rem;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    background-color: blue;
+    color: gold;
+}
+form button:hover {
+    background-color: gold;
+    color: blue;
+    cursor: pointer;
+}
+form button:active {
+    background-color: darkblue;
+    color: white;
+}
+form button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px gold;
+}
